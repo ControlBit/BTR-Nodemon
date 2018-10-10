@@ -8,7 +8,6 @@
 		"url": "http://andrewgarv.in"
 	},
 	"license": "ISC",
-	"main": "index.js",
 	"keywords": [
 		"node",
 		"nodejs",
@@ -17,8 +16,5 @@
 		"readme",
 		"controlbit",
 		"studios"
-    ],
-    "scripts": {
-        "start": "echo 'hello world'"
-    }
+    ]
 }
