@@ -1,0 +1,24 @@
+{
+	"name": "btr-nodemon",
+	"version": "1.0.0",
+	"description": "'Beyond the README: Nodemon' by ControlBit Studios",
+	"author": {
+		"name": "Andrew Garvin",
+		"email": "me@andrewgarv.in",
+		"url": "http://andrewgarv.in"
+	},
+	"license": "ISC",
+	"main": "index.js",
+	"keywords": [
+		"node",
+		"nodejs",
+		"nodemon",
+		"beyond",
+		"readme",
+		"controlbit",
+		"studios"
+    ],
+    "scripts": {
+        "start": "echo 'hello world'"
+    }
+}
