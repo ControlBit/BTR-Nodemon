@@ -1,5 +1,17 @@
 # Beyond the README: Nodemon
 
+## Why Nodemon?
+
+To quote the nodemon website,
+
+```
+Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development.
+```
+
+If that doesn't cover it, nodemon is a great developer aid that watches all of your input files, and anytime it sees a change, will restart your project. It's hot-reloading for the backend.
+
+In personal experience, I've found nodemon to significantly speed up development, as I no longer have to worry about restarting my project every time I make a change.
+
 ## Initial Thoughts
 
 Since nodemon is actually a fairly small package, the readme covers almost all of its functionality.
@@ -49,6 +61,8 @@ If a file is not specified in the CLI, nodemon will look inside your package.jso
 If your `package.json` does not have a `main` field, nodemon will search for an `index.js` file at the root of your project, and use that.
 
 In the case `index.js` is not found, the `scripts/start` command will run. You will be notified if none of the above criteria exist.
+
+If at any point you need to restart nodemon (perhaps after a crash), you can run `rs` inside of the nodemon instance.
 
 ## CLI Arguments
 
