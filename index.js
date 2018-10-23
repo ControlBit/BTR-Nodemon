@@ -1,1 +1,1 @@
-console.log('argv:', process.argv);
+console.log('working');
