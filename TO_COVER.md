@@ -14,7 +14,7 @@ In personal experience, I've found nodemon to significantly speed up development
 
 ## Initial Thoughts
 
-Since nodemon is actually a fairly small package, the readme covers almost all of its functionality.
+Since nodemon is actually a fairly small package, the readme covers almost all of its functionality (and has done a very good job at it).
 
 For this reason, please note that this repo is best used as a companion to the video tutorial of the same name. My intention is only to help more developers find success in using this package, by providing an easy-to-consume informational series on the subject.
 

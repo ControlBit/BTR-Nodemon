@@ -7,3 +7,4 @@
 - [x] Should clonemon use fork instead of spawn (to more closely match nodemon)?
 - [ ] Add content to OUTLINE, delete NOTES and TO_COVER
 - [ ] README should be the public-facing guide
+- [ ] Set up nodemondule as a wrapper for a crashing server - use requireable nodemon as a way to increase your application uptime
