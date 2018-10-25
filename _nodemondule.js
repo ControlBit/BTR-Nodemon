@@ -67,9 +67,9 @@ nodemon.on('start', () => {
  * us what has happened.
  */
 
-// nodemon.on('restart', () => {
-// 	console.log('index.js has restarted');
-// });
+nodemon.on('restart', () => {
+	console.log('index.js has restarted');
+});
 
 // === QUIT === //
 
@@ -77,9 +77,9 @@ nodemon.on('start', () => {
  * This is run when the process nodemon is running terminates
  */
 
-// nodemon.on('quit', () => {
-// 	console.log('index.js has quit');
-// });
+nodemon.on('quit', () => {
+	console.log('index.js has quit');
+});
 
 // === LOG (VERBOSE ONLY) === //
 

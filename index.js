@@ -1,1 +1,1 @@
-console.log('working');
+console.log('index.js is working!');
