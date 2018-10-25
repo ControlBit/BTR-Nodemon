@@ -28,7 +28,7 @@
             - --verbose, -V
             - --dump
             - --legacy-watch, -L
-    - nodemon.json configuration
+    - nodemon.json configuration (or package.json)
         - properties
         - events
 
