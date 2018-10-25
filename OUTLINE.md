@@ -14,7 +14,10 @@
 ## What does nodemon offer beyond this basic wrapper?
 
     - requiring nodemon as a module
+        - spawning w/ arguments
         - events
+            - on / once
+            - emit
     - nodemon cli
         - arguments
             - --ext, -e

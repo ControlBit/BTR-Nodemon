@@ -16,5 +16,8 @@
 		"readme",
 		"controlbit",
 		"studios"
-    ]
+	],
+	"dependencies": {
+		"nodemon": "^1.18.4"
+	}
 }
