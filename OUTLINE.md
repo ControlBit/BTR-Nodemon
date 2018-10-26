@@ -27,7 +27,6 @@
             - --delay, -d
             - --verbose, -V
             - --dump
-            - --legacy-watch, -L
     - nodemon.json configuration (or package.json)
         - properties
         - events

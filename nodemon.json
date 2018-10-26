@@ -1,6 +1,19 @@
 {
-	"events": {
+    "ext": "js json sql env",
+    "exec": "echo hello world; node",
+    "ignore": [
+        "nodemon.json",
+        "node_modules/**/*",
+        "**/ignore/**/*"
+    ],
+    "watch": [
+        "server/**/*",
+        "config/**/*"
+    ],
+    "delay": "600",
+    "verbose": true,
+    "dump": false,
+    "events": {
 		"restart": "osascript -e 'display notification \"app restarted\" with title \"nodemon\"'"
-	},
-	"watch": ["server", "db", ".env*"]
+	}
 }
